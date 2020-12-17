@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@android:color/black">
+
+    <Button
+        android:id="@+id/btnRed"
+        android:text="Red"
+        android:backgroundTint="#ff0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btnOrange"
+        android:text="Orange"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btnRed"
+        android:layout_below="@+id/btnRed"
+        />
+    <Button
+        android:id="@+id/btnYellow"
+        android:text="Yellow"
+        android:backgroundTint="#EFDF00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btnOrange"
+        android:layout_below="@+id/btnOrange"
+        />
+    <Button
+        android:id="@+id/btnGreen"
+        android:text="Green"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btnYellow"
+        android:layout_below="@+id/btnYellow"
+        />
+    <Button
+        android:id="@+id/btnBlue"
+        android:text="Blue"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/btnGreen"
+        android:layout_below="@+id/btnGreen"
+        />
+    <Button
+        android:id="@+id/btnIndigo"
+        android:text="Indigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/btnBlue"
+        android:layout_below="@+id/btnBlue"
+        />
+    <Button
+        android:id="@+id/btnViolet"
+        android:text="Violet"
+        android:backgroundTint="#7700A3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/btnIndigo"
+        android:layout_below="@+id/btnIndigo"
+        />
+
+</RelativeLayout>
